@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+from googletrans import Translator
 def get_word():
     url = "https://randomword.com/"
     try:
